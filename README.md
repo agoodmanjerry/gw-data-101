@@ -2,6 +2,20 @@
 This is the repository that collects basic documentation and simple scripts to access the data on KAGRA main data server and LIGO CIT cluster. The tutorials are seperated into the following parts:
 ### 1. Environmental setup
 Most of data analysis tools are written in Python language and supported on Linux system. For Windows users, we can set up the Linux subsystem under Windows system, also known as WSL. The Python packages are managed through Python virtual environment, we will manage the Python environments using Conda or Mamba.
+
+Installing Python environment using `environment.yaml`: After installing Conda or Mamba, use the following command to install a Python environment called `gw-data-101` which includes the Python packages needed in the tutorials:
+```bash
+  conda env create -f environment.yaml
+```
+You may check the environments installed by
+```bash
+  conda env list
+```
+
+Activating the Python environment:
+```bash
+  conda activate gw-data-101
+```
 ### 2. Accessing KAGRA main data server (kmst2-01) and CIT clusters
 We can access LVK internal data by accessing the data server.
 ### 3. Finding Science Segments

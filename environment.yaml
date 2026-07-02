@@ -1,4 +1,4 @@
-name: gw-demo
+name: gw-data-101
 channels:
 - conda-forge
 dependencies:

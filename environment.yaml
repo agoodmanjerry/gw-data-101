@@ -226,6 +226,7 @@ dependencies:
   - mpld3=0.5.10=pyhd8ed1ab_1
   - mpmath=1.3.0=pyhd8ed1ab_1
   - munkres=1.1.4=pyh9f0ad1d_0
+  - narwhals=2.23.0=pyhcf101f3_0
   - ncurses=6.5=h2d0b736_3
   - nest-asyncio=1.6.0=pyhd8ed1ab_1
   - nlohmann_json=3.11.3=he02047a_1
@@ -252,6 +253,7 @@ dependencies:
   - pixman=0.44.2=h29eaf8c_0
   - pkg-config=0.29.2=h4bc722e_1009
   - platformdirs=4.3.7=pyh29332c3_0
+  - plotly=6.9.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.50=pyha770c72_0
   - psutil=7.0.0=py310ha75aee5_0
   - pthread-stubs=0.4=hb9d3cd8_1002
